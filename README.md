@@ -1,4 +1,4 @@
-# Scol
+# Scol Console
 
 **A personal tutor for every child in Classes 1 to 4.**
 
