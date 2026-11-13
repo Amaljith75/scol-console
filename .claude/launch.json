@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "studio",
+      "runtimeExecutable": "studio/.venv/Scripts/python.exe",
+      "runtimeArgs": ["studio/server.py", "8765"],
+      "port": 8765
+    }
+  ]
+}

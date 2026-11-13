@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scol Console</title>
+<link rel="icon" href="/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Roboto:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#/"><img src="/logo.png" alt="" width="32" height="32">scol <b>console</b></a>
+  <nav class="pill" id="nav">
+    <a href="#/" data-nav="overview">Overview</a>
+    <a href="#/textbooks" data-nav="textbooks">Textbooks</a>
+    <a href="#/history" data-nav="history">History</a>
+    <a href="#/providers" data-nav="providers">AI Providers</a>
+  </nav>
+  <div id="jobs" aria-live="polite"></div>
+  <div class="staging" title="Pushes go to a staging copy of content/. Scol's real content is not touched.">● Staging only: not connected to Scol</div>
+</header>
+<main id="view"></main>
+<div id="toast" role="status"></div>
+<script src="visuals.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
