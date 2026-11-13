@@ -1,7 +1,7 @@
 # Scol Console
 
-**A personal tutor for every child in Classes 1 to 4.**
-
+**A platform for adding new lessons/features and push to scol app.**
+Has built-in android emulator to test the updates made here
 <img src="app/branding/logo.png" width="96" alt="Scol">
 
 Scol is an Android app where a friendly little creature teaches your child their own school
